@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     color: white;
@@ -14,7 +15,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +59,7 @@ body{
     padding: 70px 10% 0;
 }
 .home-content{
-    max-width: 600px;
+    max-width: 550px;
 }
 .home-content h3{
     font-size: 32px;
@@ -106,6 +107,84 @@ body{
     0 0 25px #eb88ba, 0 0 1px #eb88ba,
     0 0 20px #eb88ba, 0 0 100px #eb88ba
 }
+.experience{
+    /* background-color: black; */
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(experience.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    /* padding: 70px 10% 0; */
+}
+
+#experience{
+    color:white;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+}
+.container{
+    padding: 90px;
+}
+.experience-list{
+    padding-left: 350px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-gap: 100px;
+}
+.experience-list div{
+    background-color: transparent;
+    padding: 30px;
+    font-size: 16px;
+    /* font-weight: 13px; */
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #db2777,
+                1px 1px 40px #c084fc;
+}
+.experience-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.experience-list div h2{
+    background: -webkit-linear-gradient(45deg,#c084fc, #db2777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.experience-list div p{
+    font-size: 18px;
+}
+.experience-list div:hover{
+    transform: translateY(-10px);
+}
+
+.construction{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
 
 @keyframes slideRight {
     0% {
