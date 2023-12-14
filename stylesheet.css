@@ -4,11 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Ubuntu', sans-serif;
+/*     font-family: 'Ubuntu', sans-serif; */
 }
 body{
     color: white;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
 }
 .header{
     position: fixed;
